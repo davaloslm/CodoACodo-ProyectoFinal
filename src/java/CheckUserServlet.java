@@ -55,6 +55,8 @@ public class CheckUserServlet extends HttpServlet {
                 out.println("<h1>El usuario ingresado es: " + request.getParameter("email") + "</h1>");
 
             }
+            
+            out.println("<h1>El usuario ingresado es: " + request.getParameter("email") + "</h1>");
 
         } catch (SQLException ex) {
             Logger.getLogger(CheckUserServlet.class.getName()).log(Level.SEVERE, null, ex);
